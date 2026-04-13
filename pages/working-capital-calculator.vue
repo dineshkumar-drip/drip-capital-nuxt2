@@ -192,7 +192,7 @@
 
             <!-- CTA -->
             <div class="calc-cta">
-              <NuxtLink to="/apply" class="btn btn-primary btn-lg" style="width:100%; text-align:center; display:block;">
+              <NuxtLink to="/en-us/apply" class="btn btn-primary btn-lg" style="width:100%; text-align:center; display:block;">
                 Apply Now: Get a Real Offer in 24 Hours →
               </NuxtLink>
               <p class="calc-cta-note">No application fee · No collateral · Soft pull only</p>
@@ -267,7 +267,7 @@
           <h2 class="cta-simple-title">Ready to close your working capital gap?</h2>
           <p class="cta-simple-desc">Get a real credit decision in 24 hours. No collateral, no hidden fees, no delays.</p>
           <div class="cta-simple-actions">
-            <NuxtLink to="/apply" class="btn btn-primary btn-lg">Apply Now →</NuxtLink>
+            <NuxtLink to="/en-us/apply" class="btn btn-primary btn-lg">Apply Now →</NuxtLink>
             <a href="tel:+16504370150" class="btn btn-outline-white btn-lg">Call +1 (650) 437-0150</a>
           </div>
         </div>
@@ -303,7 +303,7 @@ export default {
             { val: '90 days', label: 'Repayment terms' },
             { val: '24 hrs', label: 'To approval' }
           ],
-          link: '/products/vendor-financing'
+          link: '/en-us/vendor-financing'
         },
         {
           badge: 'Receivables Financing',
@@ -313,7 +313,7 @@ export default {
             { val: '24–48 hrs', label: 'To cash' },
             { val: '90%+', label: 'Advance rate' }
           ],
-          link: '/products/receivable-financing'
+          link: '/en-us/receivables-financing'
         },
         {
           badge: 'Line of Credit',
@@ -323,7 +323,7 @@ export default {
             { val: 'On demand', label: 'Draw access' },
             { val: '$100K–$10M', label: 'Facility size' }
           ],
-          link: '/products/line-of-credit'
+          link: '/en-us/line-of-credit'
         }
       ]
     }
@@ -348,7 +348,7 @@ export default {
         badge: 'Vendor Financing',
         name: 'Vendor Financing',
         why: 'Your payables are a significant burden. Drip Capital can pay your vendors directly and give you up to 90 days to repay, freeing cash for growth.',
-        link: '/products/vendor-financing'
+        link: '/en-us/vendor-financing'
       }
 
       if (receivables > payables && receivables > inventory) {
@@ -356,21 +356,21 @@ export default {
           badge: 'Receivables Financing',
           name: 'Receivables Financing',
           why: 'Most of your capital is locked in outstanding invoices. We can convert your AR to same-day cash so you can reinvest immediately without waiting on customers.',
-          link: '/products/receivable-financing'
+          link: '/en-us/receivables-financing'
         }
       } else if (inventory > receivables && inventory > payables) {
         product = {
           badge: 'Vendor Financing',
           name: 'Vendor Financing',
           why: 'Your inventory cycle is your biggest cash drain. Vendor Financing lets Drip pay your vendors upfront while you sell through inventory at your own pace.',
-          link: '/products/vendor-financing'
+          link: '/en-us/vendor-financing'
         }
       } else if (wcGap < 200000) {
         product = {
           badge: 'Line of Credit',
           name: 'Line of Credit',
           why: 'Your gap is manageable but unpredictable. A revolving Line of Credit gives you on-demand access to capital for opportunistic buys and seasonal swings.',
-          link: '/products/line-of-credit'
+          link: '/en-us/line-of-credit'
         }
       }
 

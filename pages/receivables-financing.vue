@@ -7,8 +7,8 @@
         <h1>Get paid on your invoices<br><em>today.</em></h1>
         <p>Stop waiting 60–90 days for customer payments. Access cash against your receivables immediately and put it to work in your business.</p>
         <div class="hero-actions">
-          <NuxtLink to="/company/contact" class="btn btn-primary btn-lg">Apply Now →</NuxtLink>
-          <NuxtLink to="/products/vendor-financing" class="btn btn-outline-white btn-lg">View Vendor Financing</NuxtLink>
+          <NuxtLink to="/en-us/contact" class="btn btn-primary btn-lg">Apply Now →</NuxtLink>
+          <NuxtLink to="/en-us/vendor-financing" class="btn btn-outline-white btn-lg">View Vendor Financing</NuxtLink>
         </div>
       </div>
     </section>
@@ -238,8 +238,8 @@
           <h2 class="cta-simple-title">Stop waiting on your customers to pay.</h2>
           <p class="cta-simple-desc">Access the cash you've already earned. Apply for Receivables Financing today and get funded in 24 hours.</p>
           <div class="cta-simple-actions">
-            <NuxtLink to="/company/contact" class="btn btn-primary btn-lg">Apply for Receivables Financing →</NuxtLink>
-            <NuxtLink to="/products/line-of-credit" class="btn btn-outline btn-lg">Compare Products</NuxtLink>
+            <NuxtLink to="/en-us/contact" class="btn btn-primary btn-lg">Apply for Receivables Financing →</NuxtLink>
+            <NuxtLink to="/en-us/line-of-credit" class="btn btn-outline btn-lg">Compare Products</NuxtLink>
           </div>
         </div>
       </div>

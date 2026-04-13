@@ -3,7 +3,7 @@
     <div class="container">
       <nav class="nav-inner">
         <!-- Logo -->
-        <NuxtLink to="/" class="nav-logo" aria-label="Drip Capital Home">
+        <NuxtLink to="/en-us/" class="nav-logo" aria-label="Drip Capital Home">
           <img src="/logo.svg" alt="Drip Capital" class="nav-logo-img" />
         </NuxtLink>
 
@@ -25,7 +25,7 @@
             </button>
             <div class="dropdown" :class="{ open: activeDropdown === 'products' }">
               <div class="dropdown-inner">
-                <NuxtLink to="/products/vendor-financing" class="dropdown-item" @click="closeDropdown">
+                <NuxtLink to="/en-us/vendor-financing" class="dropdown-item" @click="closeDropdown">
                   <div class="dropdown-icon">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                       <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/>
@@ -37,7 +37,7 @@
                     <div class="dropdown-desc">Pay vendors now, repay in 90 days</div>
                   </div>
                 </NuxtLink>
-                <NuxtLink to="/products/receivable-financing" class="dropdown-item" @click="closeDropdown">
+                <NuxtLink to="/en-us/receivables-financing" class="dropdown-item" @click="closeDropdown">
                   <div class="dropdown-icon">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                       <rect x="2" y="5" width="20" height="14" rx="2"/>
@@ -49,7 +49,7 @@
                     <div class="dropdown-desc">Convert invoices to cash in 24–48 hrs</div>
                   </div>
                 </NuxtLink>
-                <NuxtLink to="/products/line-of-credit" class="dropdown-item" @click="closeDropdown">
+                <NuxtLink to="/en-us/line-of-credit" class="dropdown-item" @click="closeDropdown">
                   <div class="dropdown-icon">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                       <polyline points="23 4 23 10 17 10"/>
@@ -82,7 +82,7 @@
             </button>
             <div class="dropdown" :class="{ open: activeDropdown === 'industry' }">
               <div class="dropdown-inner">
-                <NuxtLink to="/industry/manufacturing" class="dropdown-item" @click="closeDropdown">
+                <NuxtLink to="/en-us/industry/manufacturing" class="dropdown-item" @click="closeDropdown">
                   <div class="dropdown-icon">
                     <AppIcon name="gear" :size="16" color="var(--green)" />
                   </div>
@@ -91,7 +91,7 @@
                     <div class="dropdown-desc">Industrial & production businesses</div>
                   </div>
                 </NuxtLink>
-                <NuxtLink to="/industry/wholesale" class="dropdown-item" @click="closeDropdown">
+                <NuxtLink to="/en-us/industry/wholesale" class="dropdown-item" @click="closeDropdown">
                   <div class="dropdown-icon">
                     <AppIcon name="box" :size="16" color="var(--green)" />
                   </div>
@@ -100,7 +100,7 @@
                     <div class="dropdown-desc">Distribution & trade businesses</div>
                   </div>
                 </NuxtLink>
-                <NuxtLink to="/industry/agri-food" class="dropdown-item" @click="closeDropdown">
+                <NuxtLink to="/en-us/industry/agri-food" class="dropdown-item" @click="closeDropdown">
                   <div class="dropdown-icon">
                     <AppIcon name="leaf" :size="16" color="var(--green)" />
                   </div>
@@ -109,7 +109,7 @@
                     <div class="dropdown-desc">Agriculture & food supply chains</div>
                   </div>
                 </NuxtLink>
-                <NuxtLink to="/industry/consumer-goods" class="dropdown-item" @click="closeDropdown">
+                <NuxtLink to="/en-us/industry/consumer-goods" class="dropdown-item" @click="closeDropdown">
                   <div class="dropdown-icon">
                     <AppIcon name="bag" :size="16" color="var(--green)" />
                   </div>
@@ -118,7 +118,7 @@
                     <div class="dropdown-desc">Retail & branded products</div>
                   </div>
                 </NuxtLink>
-                <NuxtLink to="/industry/seafood" class="dropdown-item" @click="closeDropdown">
+                <NuxtLink to="/en-us/industry/seafood" class="dropdown-item" @click="closeDropdown">
                   <div class="dropdown-icon">
                     <AppIcon name="fish" :size="16" color="var(--green)" />
                   </div>
@@ -133,7 +133,7 @@
 
           <!-- Partner -->
           <li class="nav-item">
-            <NuxtLink to="/partner" class="nav-trigger" active-class="nav-trigger-active">
+            <NuxtLink to="/en-us/partners" class="nav-trigger" active-class="nav-trigger-active">
               Partner
             </NuxtLink>
           </li>
@@ -154,7 +154,7 @@
             </button>
             <div class="dropdown" :class="{ open: activeDropdown === 'company' }">
               <div class="dropdown-inner">
-                <NuxtLink to="/company/about" class="dropdown-item" @click="closeDropdown">
+                <NuxtLink to="/en-us/about" class="dropdown-item" @click="closeDropdown">
                   <div class="dropdown-icon">
                     <AppIcon name="building" :size="16" color="var(--navy)" />
                   </div>
@@ -163,7 +163,7 @@
                     <div class="dropdown-desc">Our story and mission</div>
                   </div>
                 </NuxtLink>
-                <NuxtLink to="/company/investors" class="dropdown-item" @click="closeDropdown">
+                <NuxtLink to="/en-us/investors" class="dropdown-item" @click="closeDropdown">
                   <div class="dropdown-icon">
                     <AppIcon name="trending" :size="16" color="var(--green)" />
                   </div>
@@ -172,7 +172,7 @@
                     <div class="dropdown-desc">World-class backers</div>
                   </div>
                 </NuxtLink>
-                <NuxtLink to="/company/contact" class="dropdown-item" @click="closeDropdown">
+                <NuxtLink to="/en-us/contact" class="dropdown-item" @click="closeDropdown">
                   <div class="dropdown-icon">
                     <AppIcon name="mail" :size="16" color="var(--green)" />
                   </div>
@@ -211,7 +211,7 @@
             </button>
             <div class="dropdown" :class="{ open: activeDropdown === 'resources' }">
               <div class="dropdown-inner">
-                <NuxtLink to="/resources/newsroom" class="dropdown-item" @click="closeDropdown">
+                <NuxtLink to="/en-us/newsroom" class="dropdown-item" @click="closeDropdown">
                   <div class="dropdown-icon">
                     <AppIcon name="zap" :size="16" color="var(--green)" />
                   </div>
@@ -220,7 +220,7 @@
                     <div class="dropdown-desc">Press releases & media</div>
                   </div>
                 </NuxtLink>
-                <NuxtLink to="/resources/finance-guides" class="dropdown-item" @click="closeDropdown">
+                <NuxtLink to="/en-us/finance-guides" class="dropdown-item" @click="closeDropdown">
                   <div class="dropdown-icon">
                     <AppIcon name="dollar" :size="16" color="var(--green)" />
                   </div>
@@ -229,7 +229,7 @@
                     <div class="dropdown-desc">Working capital education</div>
                   </div>
                 </NuxtLink>
-                <NuxtLink to="/resources/blog" class="dropdown-item" @click="closeDropdown">
+                <NuxtLink to="/en-us/blog" class="dropdown-item" @click="closeDropdown">
                   <div class="dropdown-icon">
                     <AppIcon name="trending" :size="16" color="var(--green)" />
                   </div>
@@ -238,7 +238,7 @@
                     <div class="dropdown-desc">Insights & industry news</div>
                   </div>
                 </NuxtLink>
-                <NuxtLink to="/resources/working-capital-calculator" class="dropdown-item" @click="closeDropdown">
+                <NuxtLink to="/en-us/working-capital-calculator" class="dropdown-item" @click="closeDropdown">
                   <div class="dropdown-icon">
                     <AppIcon name="chart" :size="16" color="var(--green)" />
                   </div>
@@ -247,7 +247,7 @@
                     <div class="dropdown-desc">Calculate your working capital gap</div>
                   </div>
                 </NuxtLink>
-                <NuxtLink to="/resources/use-cases" class="dropdown-item" @click="closeDropdown">
+                <NuxtLink to="/en-us/use-cases" class="dropdown-item" @click="closeDropdown">
                   <div class="dropdown-icon">
                     <AppIcon name="clipboard" :size="16" color="var(--green)" />
                   </div>
@@ -269,7 +269,7 @@
             </svg>
             +1 650 437 0150
           </a>
-          <NuxtLink to="/apply" class="btn btn-primary btn-sm">Apply Now →</NuxtLink>
+          <NuxtLink to="/en-us/apply" class="btn btn-primary btn-sm">Apply Now →</NuxtLink>
         </div>
 
         <!-- Hamburger -->
@@ -286,36 +286,36 @@
       <div class="mobile-menu-inner">
         <div class="mobile-section">
           <div class="mobile-section-title">Products</div>
-          <NuxtLink to="/products/vendor-financing" class="mobile-link" @click="closeMobile">Vendor Financing</NuxtLink>
-          <NuxtLink to="/products/receivable-financing" class="mobile-link" @click="closeMobile">Receivables Financing</NuxtLink>
-          <NuxtLink to="/products/line-of-credit" class="mobile-link" @click="closeMobile">Line of Credit</NuxtLink>
+          <NuxtLink to="/en-us/vendor-financing" class="mobile-link" @click="closeMobile">Vendor Financing</NuxtLink>
+          <NuxtLink to="/en-us/receivables-financing" class="mobile-link" @click="closeMobile">Receivables Financing</NuxtLink>
+          <NuxtLink to="/en-us/line-of-credit" class="mobile-link" @click="closeMobile">Line of Credit</NuxtLink>
         </div>
         <div class="mobile-section">
           <div class="mobile-section-title">Industry</div>
-          <NuxtLink to="/industry/manufacturing" class="mobile-link" @click="closeMobile">Manufacturing</NuxtLink>
-          <NuxtLink to="/industry/wholesale" class="mobile-link" @click="closeMobile">Wholesale</NuxtLink>
-          <NuxtLink to="/industry/agri-food" class="mobile-link" @click="closeMobile">Agri-Products</NuxtLink>
-          <NuxtLink to="/industry/consumer-goods" class="mobile-link" @click="closeMobile">Consumer Goods</NuxtLink>
-          <NuxtLink to="/industry/seafood" class="mobile-link" @click="closeMobile">Seafood</NuxtLink>
+          <NuxtLink to="/en-us/industry/manufacturing" class="mobile-link" @click="closeMobile">Manufacturing</NuxtLink>
+          <NuxtLink to="/en-us/industry/wholesale" class="mobile-link" @click="closeMobile">Wholesale</NuxtLink>
+          <NuxtLink to="/en-us/industry/agri-food" class="mobile-link" @click="closeMobile">Agri-Products</NuxtLink>
+          <NuxtLink to="/en-us/industry/consumer-goods" class="mobile-link" @click="closeMobile">Consumer Goods</NuxtLink>
+          <NuxtLink to="/en-us/industry/seafood" class="mobile-link" @click="closeMobile">Seafood</NuxtLink>
         </div>
         <div class="mobile-section">
-          <NuxtLink to="/partner" class="mobile-link" @click="closeMobile">Partner</NuxtLink>
+          <NuxtLink to="/en-us/partners" class="mobile-link" @click="closeMobile">Partner</NuxtLink>
         </div>
         <div class="mobile-section">
           <div class="mobile-section-title">Company</div>
-          <NuxtLink to="/company/about" class="mobile-link" @click="closeMobile">About Us</NuxtLink>
-          <NuxtLink to="/company/investors" class="mobile-link" @click="closeMobile">Our Investors</NuxtLink>
-          <NuxtLink to="/company/contact" class="mobile-link" @click="closeMobile">Contact Us</NuxtLink>
+          <NuxtLink to="/en-us/about" class="mobile-link" @click="closeMobile">About Us</NuxtLink>
+          <NuxtLink to="/en-us/investors" class="mobile-link" @click="closeMobile">Our Investors</NuxtLink>
+          <NuxtLink to="/en-us/contact" class="mobile-link" @click="closeMobile">Contact Us</NuxtLink>
         </div>
         <div class="mobile-section">
           <div class="mobile-section-title">Resources</div>
-          <NuxtLink to="/resources/newsroom" class="mobile-link" @click="closeMobile">Newsroom</NuxtLink>
-          <NuxtLink to="/resources/finance-guides" class="mobile-link" @click="closeMobile">Finance Guides</NuxtLink>
-          <NuxtLink to="/resources/blog" class="mobile-link" @click="closeMobile">Blog</NuxtLink>
-          <NuxtLink to="/resources/use-cases" class="mobile-link" @click="closeMobile">Use Cases</NuxtLink>
+          <NuxtLink to="/en-us/newsroom" class="mobile-link" @click="closeMobile">Newsroom</NuxtLink>
+          <NuxtLink to="/en-us/finance-guides" class="mobile-link" @click="closeMobile">Finance Guides</NuxtLink>
+          <NuxtLink to="/en-us/blog" class="mobile-link" @click="closeMobile">Blog</NuxtLink>
+          <NuxtLink to="/en-us/use-cases" class="mobile-link" @click="closeMobile">Use Cases</NuxtLink>
         </div>
         <div class="mobile-cta">
-          <NuxtLink to="/apply" class="btn btn-primary w-full" @click="closeMobile">Apply Now →</NuxtLink>
+          <NuxtLink to="/en-us/apply" class="btn btn-primary w-full" @click="closeMobile">Apply Now →</NuxtLink>
           <a href="tel:+16504370150" class="btn btn-outline w-full">+1 650 437 0150</a>
         </div>
       </div>

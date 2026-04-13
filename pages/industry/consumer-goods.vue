@@ -6,8 +6,8 @@
         <h1>Working capital for<br><em>consumer goods brands</em></h1>
         <p>Consumer goods companies move fast, manage complex retail relationships, and require constant inventory investment. Drip Capital helps you keep shelves stocked and cash flowing.</p>
         <div class="hero-actions">
-          <NuxtLink to="/company/contact" class="btn btn-primary btn-lg">Talk to Us →</NuxtLink>
-          <NuxtLink to="/products/receivable-financing" class="btn btn-outline-white btn-lg">View Receivables Financing</NuxtLink>
+          <NuxtLink to="/en-us/contact" class="btn btn-primary btn-lg">Talk to Us →</NuxtLink>
+          <NuxtLink to="/en-us/receivables-financing" class="btn btn-outline-white btn-lg">View Receivables Financing</NuxtLink>
         </div>
       </div>
     </section>
@@ -88,7 +88,7 @@
           <h2 class="cta-simple-title">Never miss a retail opportunity.</h2>
           <p class="cta-simple-desc">Have the capital ready to fulfill large retailer orders without straining your cash reserves.</p>
           <div class="cta-simple-actions">
-            <NuxtLink to="/company/contact" class="btn btn-primary btn-lg">Apply Now →</NuxtLink>
+            <NuxtLink to="/en-us/contact" class="btn btn-primary btn-lg">Apply Now →</NuxtLink>
           </div>
         </div>
       </div>
@@ -113,9 +113,9 @@ export default {
       ],
 
       products: [
-        { badge: 'Vendor Financing', name: 'Vendor Financing', desc: 'Pay overseas manufacturers and domestic vendors on time while waiting for large retailer payments.', link: '/products/vendor-financing' },
-        { badge: 'Receivables Financing', name: 'Receivables Financing', desc: 'Convert outstanding retailer invoices into immediate cash to fund your next production run.', link: '/products/receivable-financing' },
-        { badge: 'Line of Credit', name: 'Line of Credit', desc: 'Keep a revolving credit line available for product launches, trade promotions, and seasonal inventory builds.', link: '/products/line-of-credit' }
+        { badge: 'Vendor Financing', name: 'Vendor Financing', desc: 'Pay overseas manufacturers and domestic vendors on time while waiting for large retailer payments.', link: '/en-us/vendor-financing' },
+        { badge: 'Receivables Financing', name: 'Receivables Financing', desc: 'Convert outstanding retailer invoices into immediate cash to fund your next production run.', link: '/en-us/receivables-financing' },
+        { badge: 'Line of Credit', name: 'Line of Credit', desc: 'Keep a revolving credit line available for product launches, trade promotions, and seasonal inventory builds.', link: '/en-us/line-of-credit' }
       ],
 
       stats: [

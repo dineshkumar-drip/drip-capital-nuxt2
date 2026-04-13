@@ -7,8 +7,8 @@
         <h1>Working capital for<br><em>manufacturers</em></h1>
         <p>Manufacturing businesses face long production cycles, large raw material costs, and slow customer payments. Drip Capital provides the capital to keep your production line moving.</p>
         <div class="hero-actions">
-          <NuxtLink to="/company/contact" class="btn btn-primary btn-lg">Talk to Us →</NuxtLink>
-          <NuxtLink to="/products/vendor-financing" class="btn btn-outline-white btn-lg">View Vendor Financing</NuxtLink>
+          <NuxtLink to="/en-us/contact" class="btn btn-primary btn-lg">Talk to Us →</NuxtLink>
+          <NuxtLink to="/en-us/vendor-financing" class="btn btn-outline-white btn-lg">View Vendor Financing</NuxtLink>
         </div>
       </div>
     </section>
@@ -99,7 +99,7 @@
           <h2 class="cta-simple-title">Keep your production line moving.</h2>
           <p class="cta-simple-desc">Apply today and get a credit decision in 24 hours. No collateral, no bank deposit required.</p>
           <div class="cta-simple-actions">
-            <NuxtLink to="/company/contact" class="btn btn-primary btn-lg">Apply Now →</NuxtLink>
+            <NuxtLink to="/en-us/contact" class="btn btn-primary btn-lg">Apply Now →</NuxtLink>
           </div>
         </div>
       </div>
@@ -124,9 +124,9 @@ export default {
       ],
 
       products: [
-        { badge: 'Vendor Financing', name: 'Vendor Financing', desc: 'Pay your raw material and component vendors on time. Drip pays them now, you repay on up to 90-day terms.', link: '/products/vendor-financing' },
-        { badge: 'Receivables Financing', name: 'Receivables Financing', desc: 'Convert your outstanding customer invoices into same-day cash. Stop waiting 60–90 days for payment.', link: '/products/receivable-financing' },
-        { badge: 'Line of Credit', name: 'Line of Credit', desc: 'A revolving credit facility to fund operations, cover payroll, or capitalize on bulk purchase opportunities.', link: '/products/line-of-credit' }
+        { badge: 'Vendor Financing', name: 'Vendor Financing', desc: 'Pay your raw material and component vendors on time. Drip pays them now, you repay on up to 90-day terms.', link: '/en-us/vendor-financing' },
+        { badge: 'Receivables Financing', name: 'Receivables Financing', desc: 'Convert your outstanding customer invoices into same-day cash. Stop waiting 60–90 days for payment.', link: '/en-us/receivables-financing' },
+        { badge: 'Line of Credit', name: 'Line of Credit', desc: 'A revolving credit facility to fund operations, cover payroll, or capitalize on bulk purchase opportunities.', link: '/en-us/line-of-credit' }
       ],
 
       stats: [

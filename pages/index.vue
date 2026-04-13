@@ -20,7 +20,7 @@
               No collateral, no delays. Capital that moves as fast as your ambition. Our customers grow 130–190% in annual revenue after funding.
             </p>
             <div class="hero-cta-row">
-              <NuxtLink to="/company/contact" class="btn btn-primary btn-lg">Apply Now →</NuxtLink>
+              <NuxtLink to="/en-us/contact" class="btn btn-primary btn-lg">Apply Now →</NuxtLink>
               <a href="tel:+16504370150" class="btn btn-secondary btn-lg">Call +1 (650) 437-0150</a>
             </div>
             <p class="hero-no-fee">No application fee · No collateral · Decision in 24 hours</p>
@@ -142,7 +142,7 @@
               <li>Up to 90-day repayment terms</li>
               <li>Dedicated account manager</li>
             </ul>
-            <NuxtLink to="/products/vendor-financing" class="product-eq-cta">Learn More →</NuxtLink>
+            <NuxtLink to="/en-us/vendor-financing" class="product-eq-cta">Learn More →</NuxtLink>
           </div>
 
           <!-- Receivables Financing -->
@@ -165,7 +165,7 @@
               <li>Non-dilutive financing</li>
               <li>No fixed repayment schedule</li>
             </ul>
-            <NuxtLink to="/products/receivable-financing" class="product-eq-cta">Learn More →</NuxtLink>
+            <NuxtLink to="/en-us/receivables-financing" class="product-eq-cta">Learn More →</NuxtLink>
           </div>
 
           <!-- Line of Credit -->
@@ -189,7 +189,7 @@
               <li>Grows with your business</li>
               <li>No bank deposit requirement</li>
             </ul>
-            <NuxtLink to="/products/line-of-credit" class="product-eq-cta">Learn More →</NuxtLink>
+            <NuxtLink to="/en-us/line-of-credit" class="product-eq-cta">Learn More →</NuxtLink>
           </div>
         </div>
       </div>
@@ -235,7 +235,7 @@
           </div>
         </div>
         <div class="hiw-cta reveal">
-          <NuxtLink to="/company/contact" class="btn btn-primary btn-lg">Contact Our Team →</NuxtLink>
+          <NuxtLink to="/en-us/contact" class="btn btn-primary btn-lg">Contact Our Team →</NuxtLink>
         </div>
       </div>
     </section>
@@ -256,7 +256,7 @@
             <p class="usecase-desc">
               You buy from vendors today but don't get paid by customers for 60–90 days. Vendor Financing bridges that gap so you never have to pause orders.
             </p>
-            <NuxtLink to="/products/vendor-financing" class="usecase-link">Vendor Financing →</NuxtLink>
+            <NuxtLink to="/en-us/vendor-financing" class="usecase-link">Vendor Financing →</NuxtLink>
           </div>
           <div class="usecase-card reveal reveal-delay-1">
             <div class="usecase-icon">
@@ -266,7 +266,7 @@
             <p class="usecase-desc">
               Land a big contract but don't have the inventory capital? Access the working capital you need to fulfill the order and grow.
             </p>
-            <NuxtLink to="/products/receivable-financing" class="usecase-link">Receivables Financing →</NuxtLink>
+            <NuxtLink to="/en-us/receivables-financing" class="usecase-link">Receivables Financing →</NuxtLink>
           </div>
           <div class="usecase-card reveal reveal-delay-2">
             <div class="usecase-icon">
@@ -276,7 +276,7 @@
             <p class="usecase-desc">
               Maintain your vendor relationships and negotiate better terms. Drip ensures you always pay on time, building trust and loyalty.
             </p>
-            <NuxtLink to="/products/line-of-credit" class="usecase-link">Line of Credit →</NuxtLink>
+            <NuxtLink to="/en-us/line-of-credit" class="usecase-link">Line of Credit →</NuxtLink>
           </div>
         </div>
       </div>
@@ -314,7 +314,7 @@
                   <span class="case-metric-label">Volume Growth</span>
                 </div>
               </div>
-              <NuxtLink to="/resources/use-cases" class="btn btn-outline btn-sm mt-24">Read Case Study →</NuxtLink>
+              <NuxtLink to="/en-us/use-cases" class="btn btn-outline btn-sm mt-24">Read Case Study →</NuxtLink>
             </div>
           </div>
 
@@ -342,7 +342,7 @@
                   <span class="case-metric-label">Revenue Growth</span>
                 </div>
               </div>
-              <NuxtLink to="/resources/use-cases" class="btn btn-outline btn-sm mt-24">Read Case Study →</NuxtLink>
+              <NuxtLink to="/en-us/use-cases" class="btn btn-outline btn-sm mt-24">Read Case Study →</NuxtLink>
             </div>
           </div>
         </div>
@@ -363,7 +363,7 @@
             <span class="eyebrow">FAQ</span>
             <h2 class="section-title">Common questions about working capital financing.</h2>
             <p class="section-subtitle">Can't find what you're looking for?</p>
-            <NuxtLink to="/company/contact" class="btn btn-primary mt-24">Talk to Our Team →</NuxtLink>
+            <NuxtLink to="/en-us/contact" class="btn btn-primary mt-24">Talk to Our Team →</NuxtLink>
           </div>
 
           <div class="faq-right">
@@ -401,7 +401,7 @@
             </p>
           </div>
           <div class="cta-actions">
-            <NuxtLink to="/company/contact" class="btn btn-primary btn-lg">Contact Us →</NuxtLink>
+            <NuxtLink to="/en-us/contact" class="btn btn-primary btn-lg">Contact Us →</NuxtLink>
             <a href="tel:+16504370150" class="btn btn-outline-white btn-lg">
               Call +1 (650) 437-0150
             </a>

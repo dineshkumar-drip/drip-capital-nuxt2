@@ -8,7 +8,7 @@
           <h2 class="news-title">News &amp; insights</h2>
         </div>
         <div class="news-header-right">
-          <NuxtLink to="/resources/newsroom" class="news-see-all">
+          <NuxtLink to="/en-us/newsroom" class="news-see-all">
             See all news
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M5 12h14M12 5l7 7-7 7"/>
@@ -36,7 +36,7 @@
             </div>
             <h3 class="news-card-title">Drip Capital Surpasses $9 Billion in Trade Finance Funded</h3>
             <p class="news-card-excerpt">Drip Capital has deployed over $9 billion to more than 10,000 US and international businesses, cementing its position as the leading tech-driven working capital platform for SMBs.</p>
-            <NuxtLink to="/resources/newsroom" class="news-card-link">
+            <NuxtLink to="/en-us/newsroom" class="news-card-link">
               Read more
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M5 12h14M12 5l7 7-7 7"/>
@@ -81,7 +81,7 @@ export default {
           date: 'February 28, 2026',
           title: 'How US Importers Can Stop Waiting 90 Days to Get Paid',
           excerpt: 'Receivables financing is changing the game for importers stuck in long payment cycles. Here is how it works in practice.',
-          link: '/resources/blog'
+          link: '/en-us/blog'
         },
         {
           tag: 'Guide',
@@ -89,7 +89,7 @@ export default {
           date: 'January 20, 2026',
           title: 'Vendor Financing vs. Traditional Credit Lines: What Works for Growing Businesses',
           excerpt: 'A practical breakdown of both options so you can choose what fits your business right now, not five years from now.',
-          link: '/resources/finance-guides'
+          link: '/en-us/finance-guides'
         }
       ],
     }

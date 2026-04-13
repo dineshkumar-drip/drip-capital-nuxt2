@@ -5,7 +5,7 @@
         <div class="footer-grid">
           <!-- Brand Column -->
           <div class="footer-brand">
-            <NuxtLink to="/" class="footer-logo-link" aria-label="Drip Capital">
+            <NuxtLink to="/en-us/" class="footer-logo-link" aria-label="Drip Capital">
               <img src="/logo.svg" alt="Drip Capital" class="footer-logo-img" />
             </NuxtLink>
             <p class="footer-tagline">Working Capital for Growing Businesses</p>
@@ -42,17 +42,17 @@
           <div class="footer-col">
             <h4 class="footer-col-title">Products</h4>
             <ul class="footer-links">
-              <li><NuxtLink to="/products/vendor-financing">Vendor Financing</NuxtLink></li>
-              <li><NuxtLink to="/products/receivable-financing">Receivables Financing</NuxtLink></li>
-              <li><NuxtLink to="/products/line-of-credit">Line of Credit</NuxtLink></li>
+              <li><NuxtLink to="/en-us/vendor-financing">Vendor Financing</NuxtLink></li>
+              <li><NuxtLink to="/en-us/receivables-financing">Receivables Financing</NuxtLink></li>
+              <li><NuxtLink to="/en-us/line-of-credit">Line of Credit</NuxtLink></li>
             </ul>
             <h4 class="footer-col-title" style="margin-top: 28px;">Industry</h4>
             <ul class="footer-links">
-              <li><NuxtLink to="/industry/manufacturing">Manufacturing</NuxtLink></li>
-              <li><NuxtLink to="/industry/wholesale">Wholesale</NuxtLink></li>
-              <li><NuxtLink to="/industry/agri-food">Agri-Products</NuxtLink></li>
-              <li><NuxtLink to="/industry/consumer-goods">Consumer Goods</NuxtLink></li>
-              <li><NuxtLink to="/industry/seafood">Seafood</NuxtLink></li>
+              <li><NuxtLink to="/en-us/industry/manufacturing">Manufacturing</NuxtLink></li>
+              <li><NuxtLink to="/en-us/industry/wholesale">Wholesale</NuxtLink></li>
+              <li><NuxtLink to="/en-us/industry/agri-food">Agri-Products</NuxtLink></li>
+              <li><NuxtLink to="/en-us/industry/consumer-goods">Consumer Goods</NuxtLink></li>
+              <li><NuxtLink to="/en-us/industry/seafood">Seafood</NuxtLink></li>
             </ul>
           </div>
 
@@ -60,11 +60,11 @@
           <div class="footer-col">
             <h4 class="footer-col-title">Company</h4>
             <ul class="footer-links">
-              <li><NuxtLink to="/company/about">About Us</NuxtLink></li>
-              <li><NuxtLink to="/company/investors">Our Investors</NuxtLink></li>
-              <li><NuxtLink to="/resources/use-cases">Case Studies</NuxtLink></li>
-              <li><NuxtLink to="/partner">Partner Program</NuxtLink></li>
-              <li><NuxtLink to="/company/contact">Contact Us</NuxtLink></li>
+              <li><NuxtLink to="/en-us/about">About Us</NuxtLink></li>
+              <li><NuxtLink to="/en-us/investors">Our Investors</NuxtLink></li>
+              <li><NuxtLink to="/en-us/use-cases">Case Studies</NuxtLink></li>
+              <li><NuxtLink to="/en-us/partners">Partner Program</NuxtLink></li>
+              <li><NuxtLink to="/en-us/contact">Contact Us</NuxtLink></li>
             </ul>
           </div>
 
@@ -72,12 +72,12 @@
           <div class="footer-col">
             <h4 class="footer-col-title">Resources</h4>
             <ul class="footer-links">
-              <li><NuxtLink to="/resources/finance-guides">Finance Guides</NuxtLink></li>
-              <li><NuxtLink to="/resources/newsroom">Newsroom</NuxtLink></li>
-              <li><NuxtLink to="/resources/blog">Blog</NuxtLink></li>
-              <li><NuxtLink to="/resources/use-cases">Use Cases</NuxtLink></li>
-              <li><NuxtLink to="/">Privacy Policy</NuxtLink></li>
-              <li><NuxtLink to="/">Terms of Service</NuxtLink></li>
+              <li><NuxtLink to="/en-us/finance-guides">Finance Guides</NuxtLink></li>
+              <li><NuxtLink to="/en-us/newsroom">Newsroom</NuxtLink></li>
+              <li><NuxtLink to="/en-us/blog">Blog</NuxtLink></li>
+              <li><NuxtLink to="/en-us/use-cases">Use Cases</NuxtLink></li>
+              <li><NuxtLink to="/en-us/privacy-policy">Privacy Policy</NuxtLink></li>
+              <li><NuxtLink to="/en-us/terms-of-use">Terms of Service</NuxtLink></li>
             </ul>
           </div>
         </div>
@@ -126,7 +126,7 @@ export default {
   methods: {
     handleEmail() {
       if (this.emailInput) {
-        this.$router.push('/company/contact')
+        this.$router.push('/en-us/contact')
       }
     },
   },

@@ -67,7 +67,7 @@
           <h2 class="cta-simple-title">Ready to write your success story?</h2>
           <p class="cta-simple-desc">Join thousands of businesses that trust Drip Capital for their working capital needs.</p>
           <div class="cta-simple-actions">
-            <NuxtLink to="/company/contact" class="btn btn-primary btn-lg">Apply Today →</NuxtLink>
+            <NuxtLink to="/en-us/contact" class="btn btn-primary btn-lg">Apply Today →</NuxtLink>
           </div>
         </div>
       </div>

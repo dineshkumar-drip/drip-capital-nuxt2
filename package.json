@@ -10,7 +10,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.14.17"
+    "nuxt": "^2.14.17",
+    "nuxt-i18n": "^5.12.7"
   },
   "engines": {
     "node": "16.14.2"

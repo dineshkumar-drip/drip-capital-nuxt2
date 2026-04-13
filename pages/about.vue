@@ -220,8 +220,8 @@
             looking to join our team, we'd love to hear from you.
           </p>
           <div class="cta-simple-actions">
-            <NuxtLink to="/company/contact" class="btn btn-primary btn-lg">Get in Touch &rarr;</NuxtLink>
-            <NuxtLink to="/company/investors" class="btn btn-outline btn-lg">View Investors</NuxtLink>
+            <NuxtLink to="/en-us/contact" class="btn btn-primary btn-lg">Get in Touch &rarr;</NuxtLink>
+            <NuxtLink to="/en-us/investors" class="btn btn-outline btn-lg">View Investors</NuxtLink>
           </div>
         </div>
       </div>

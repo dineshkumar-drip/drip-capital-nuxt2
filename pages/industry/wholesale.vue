@@ -6,8 +6,8 @@
         <h1>Working capital for<br><em>wholesale distributors</em></h1>
         <p>Wholesale businesses operate on thin margins and require large volumes to succeed. Drip Capital provides the capital velocity you need to grow distribution volumes without cash crunches.</p>
         <div class="hero-actions">
-          <NuxtLink to="/company/contact" class="btn btn-primary btn-lg">Talk to Us →</NuxtLink>
-          <NuxtLink to="/products/vendor-financing" class="btn btn-outline-white btn-lg">View Vendor Financing</NuxtLink>
+          <NuxtLink to="/en-us/contact" class="btn btn-primary btn-lg">Talk to Us →</NuxtLink>
+          <NuxtLink to="/en-us/vendor-financing" class="btn btn-outline-white btn-lg">View Vendor Financing</NuxtLink>
         </div>
       </div>
     </section>
@@ -88,7 +88,7 @@
           <h2 class="cta-simple-title">Scale your distribution volumes.</h2>
           <p class="cta-simple-desc">Get approved in 24 hours and access the capital you need to grow your wholesale business.</p>
           <div class="cta-simple-actions">
-            <NuxtLink to="/company/contact" class="btn btn-primary btn-lg">Apply Now →</NuxtLink>
+            <NuxtLink to="/en-us/contact" class="btn btn-primary btn-lg">Apply Now →</NuxtLink>
           </div>
         </div>
       </div>
@@ -113,9 +113,9 @@ export default {
       ],
 
       products: [
-        { badge: 'Vendor Financing', name: 'Vendor Financing', desc: 'Pay your vendors without waiting. Drip Capital fronts the payment so you can keep ordering and distributing without cash gaps.', link: '/products/vendor-financing' },
-        { badge: 'Receivables Financing', name: 'Receivables Financing', desc: 'Turn your net-60/90 invoices into same-day cash and reinvest immediately into new inventory.', link: '/products/receivable-financing' },
-        { badge: 'Line of Credit', name: 'Line of Credit', desc: 'A revolving credit line to handle opportunistic bulk buys and seasonal inventory swings.', link: '/products/line-of-credit' }
+        { badge: 'Vendor Financing', name: 'Vendor Financing', desc: 'Pay your vendors without waiting. Drip Capital fronts the payment so you can keep ordering and distributing without cash gaps.', link: '/en-us/vendor-financing' },
+        { badge: 'Receivables Financing', name: 'Receivables Financing', desc: 'Turn your net-60/90 invoices into same-day cash and reinvest immediately into new inventory.', link: '/en-us/receivables-financing' },
+        { badge: 'Line of Credit', name: 'Line of Credit', desc: 'A revolving credit line to handle opportunistic bulk buys and seasonal inventory swings.', link: '/en-us/line-of-credit' }
       ],
 
       stats: [

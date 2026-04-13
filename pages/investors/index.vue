@@ -105,7 +105,7 @@
           <h2 class="cta-simple-title">Interested in partnering with Drip Capital?</h2>
           <p class="cta-simple-desc">We work with banks, institutional lenders, and strategic investors to expand access to trade finance. Reach out to explore opportunities.</p>
           <div class="cta-simple-actions">
-            <NuxtLink to="/company/contact" class="btn btn-primary btn-lg">Contact Us →</NuxtLink>
+            <NuxtLink to="/en-us/contact" class="btn btn-primary btn-lg">Contact Us →</NuxtLink>
           </div>
         </div>
       </div>

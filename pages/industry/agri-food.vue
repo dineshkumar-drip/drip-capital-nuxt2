@@ -6,8 +6,8 @@
         <h1>Working capital for<br><em>agriculture & food businesses</em></h1>
         <p>Agriculture and food supply chains operate on seasonal rhythms and thin margins. Drip Capital provides flexible capital solutions tailored to the unique needs of agri-food businesses.</p>
         <div class="hero-actions">
-          <NuxtLink to="/company/contact" class="btn btn-primary btn-lg">Talk to Us →</NuxtLink>
-          <NuxtLink to="/products/vendor-financing" class="btn btn-outline-white btn-lg">View Vendor Financing</NuxtLink>
+          <NuxtLink to="/en-us/contact" class="btn btn-primary btn-lg">Talk to Us →</NuxtLink>
+          <NuxtLink to="/en-us/vendor-financing" class="btn btn-outline-white btn-lg">View Vendor Financing</NuxtLink>
         </div>
       </div>
     </section>
@@ -88,7 +88,7 @@
           <h2 class="cta-simple-title">Grow your agri-food business.</h2>
           <p class="cta-simple-desc">We understand agricultural seasonality. Get capital that works with your business cycle, not against it.</p>
           <div class="cta-simple-actions">
-            <NuxtLink to="/company/contact" class="btn btn-primary btn-lg">Apply Now →</NuxtLink>
+            <NuxtLink to="/en-us/contact" class="btn btn-primary btn-lg">Apply Now →</NuxtLink>
           </div>
         </div>
       </div>
@@ -110,9 +110,9 @@ export default {
         { icon: 'map-pin', title: 'Global Supply Chain Complexity', desc: 'Many agri-food businesses import or export across borders, adding currency risk, shipping complexity, and long payment cycles.' }
       ],
       products: [
-        { badge: 'Vendor Financing', name: 'Vendor Financing', desc: 'Pay farmers, growers, and food producers on time. Drip Capital fronts payment while you process and sell the goods.', link: '/products/vendor-financing' },
-        { badge: 'Receivables Financing', name: 'Receivables Financing', desc: 'Convert outstanding invoices from grocery chains and food distributors into immediate cash.', link: '/products/receivable-financing' },
-        { badge: 'Line of Credit', name: 'Line of Credit', desc: 'Draw down during peak purchasing seasons, repay over the following months as inventory sells.', link: '/products/line-of-credit' }
+        { badge: 'Vendor Financing', name: 'Vendor Financing', desc: 'Pay farmers, growers, and food producers on time. Drip Capital fronts payment while you process and sell the goods.', link: '/en-us/vendor-financing' },
+        { badge: 'Receivables Financing', name: 'Receivables Financing', desc: 'Convert outstanding invoices from grocery chains and food distributors into immediate cash.', link: '/en-us/receivables-financing' },
+        { badge: 'Line of Credit', name: 'Line of Credit', desc: 'Draw down during peak purchasing seasons, repay over the following months as inventory sells.', link: '/en-us/line-of-credit' }
       ],
       stats: [
         { value: 300, suffix: '+', prefix: '', label: 'Agri-food businesses funded' },

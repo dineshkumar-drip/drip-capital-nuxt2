@@ -59,6 +59,25 @@ module.exports = {
   },
   css: ['~/assets/css/main.css'],
   components: true,
+  modules: [
+    ['nuxt-i18n', {
+      locales: [
+        { code: 'en', name: 'English', file: 'en.js' },
+        { code: 'en-us', name: 'English (US)', file: 'en-us.js' }
+      ],
+      defaultLocale: 'en',
+      lazy: true,
+      langDir: 'i18n/',
+      strategy: 'prefix_except_default',
+      detectBrowserLanguage: false,
+      vueI18n: {
+        fallbackLocale: 'en'
+      }
+    }]
+  ],
+  router: {
+    middleware: ['redirects']
+  },
   build: {
     extractCSS: true
   }

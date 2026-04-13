@@ -125,10 +125,10 @@
 
             <div class="info-section">
               <h3 class="info-title">Quick Links</h3>
-              <NuxtLink to="/products/vendor-financing" class="quick-link">Vendor Financing →</NuxtLink>
-              <NuxtLink to="/products/receivable-financing" class="quick-link">Receivables Financing →</NuxtLink>
-              <NuxtLink to="/products/line-of-credit" class="quick-link">Line of Credit →</NuxtLink>
-              <NuxtLink to="/partner" class="quick-link">Partner Program →</NuxtLink>
+              <NuxtLink to="/en-us/vendor-financing" class="quick-link">Vendor Financing →</NuxtLink>
+              <NuxtLink to="/en-us/receivables-financing" class="quick-link">Receivables Financing →</NuxtLink>
+              <NuxtLink to="/en-us/line-of-credit" class="quick-link">Line of Credit →</NuxtLink>
+              <NuxtLink to="/en-us/partners" class="quick-link">Partner Program →</NuxtLink>
             </div>
 
             <div class="response-promise">

@@ -11,12 +11,12 @@
           </p>
           <NuxtLink
             v-if="!isEnterprise"
-            to="/apply"
+            to="/en-us/apply"
             class="btn btn-outline calc-cta"
           >Apply Now →</NuxtLink>
           <NuxtLink
             v-else
-            to="/company/contact"
+            to="/en-us/contact"
             class="btn btn-outline calc-cta"
           >Talk to Us →</NuxtLink>
         </div>

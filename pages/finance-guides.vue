@@ -59,7 +59,7 @@
           <h2 class="cta-simple-title">Have questions about working capital?</h2>
           <p class="cta-simple-desc">Our team of finance specialists is available to answer any questions and help you find the right solution for your business.</p>
           <div class="cta-simple-actions">
-            <NuxtLink to="/company/contact" class="btn btn-primary btn-lg">Talk to a Specialist →</NuxtLink>
+            <NuxtLink to="/en-us/contact" class="btn btn-primary btn-lg">Talk to a Specialist →</NuxtLink>
           </div>
         </div>
       </div>

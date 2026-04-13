@@ -41,7 +41,7 @@
                 We'll review your application and reach out within 24 hours. Keep an eye on
                 <strong>{{ formData.email }}</strong>. In the meantime, feel free to explore our financing products.
               </p>
-              <NuxtLink to="/products/vendor-financing" class="btn btn-primary btn-lg">
+              <NuxtLink to="/en-us/vendor-financing" class="btn btn-primary btn-lg">
                 Explore Products →
               </NuxtLink>
             </div>
@@ -403,9 +403,9 @@
                       </span>
                       <span class="checkbox-text">
                         I agree to Drip Capital's
-                        <NuxtLink to="/company/terms" class="form-link">Terms of Service</NuxtLink>
+                        <NuxtLink to="/en-us/terms" class="form-link">Terms of Service</NuxtLink>
                         and
-                        <NuxtLink to="/company/privacy" class="form-link">Privacy Policy</NuxtLink>
+                        <NuxtLink to="/en-us/privacy" class="form-link">Privacy Policy</NuxtLink>
                       </span>
                     </label>
                     <span v-if="errors.termsAgreed" class="field-error" role="alert">{{ errors.termsAgreed }}</span>
