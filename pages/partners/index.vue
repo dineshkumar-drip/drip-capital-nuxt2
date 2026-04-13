@@ -122,7 +122,17 @@
 <script>
 export default {
   head() {
-    return { title: 'Partner Program | Drip Capital' }
+    return {
+      title: 'Partner Program | Drip Capital',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Partner with Drip Capital to offer working capital solutions to your clients. Earn referral commissions while helping businesses grow.' },
+        { hid: 'og:title', property: 'og:title', content: 'Partner Program | Drip Capital' },
+        { hid: 'og:description', property: 'og:description', content: 'Partner with Drip Capital to offer working capital solutions to your clients. Earn referral commissions while helping businesses grow.' }
+      ],
+        link: [
+          { rel: 'canonical', href: 'https://www.dripcapital.com/en-us/partners' }
+        ]
+    }
   },
 
   data() {

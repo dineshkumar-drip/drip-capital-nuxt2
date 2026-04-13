@@ -47,7 +47,15 @@
 export default {
   head() {
     return {
-      title: 'Privacy Policy | Drip Capital'
+      title: 'Privacy Policy | Drip Capital',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Drip Capital privacy policy. Learn how we collect, use, and protect your personal information.' },
+        { hid: 'og:title', property: 'og:title', content: 'Privacy Policy | Drip Capital' },
+        { hid: 'og:description', property: 'og:description', content: 'Drip Capital privacy policy. Learn how we collect, use, and protect your personal information.' }
+      ],
+        link: [
+          { rel: 'canonical', href: 'https://www.dripcapital.com/en-us/privacy-policy' }
+        ]
     }
   },
 

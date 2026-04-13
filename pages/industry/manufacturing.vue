@@ -111,7 +111,15 @@
 export default {
   head() {
     return {
-      title: 'Manufacturing Working Capital | Drip Capital'
+      title: 'Manufacturing Financing | Drip Capital',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Working capital for US manufacturers. Fund raw materials, pay vendors, and scale production with 24-hour approval and up to 90-day repayment.' },
+        { hid: 'og:title', property: 'og:title', content: 'Manufacturing Financing | Drip Capital' },
+        { hid: 'og:description', property: 'og:description', content: 'Working capital for US manufacturers. Fund raw materials, pay vendors, and scale production with 24-hour approval.' }
+      ],
+        link: [
+          { rel: 'canonical', href: 'https://www.dripcapital.com/en-us/industry/manufacturing' }
+        ]
     }
   },
 

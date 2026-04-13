@@ -69,7 +69,17 @@
 <script>
 export default {
   head() {
-    return { title: 'Blog | Drip Capital' }
+    return {
+      title: 'Blog | Trade Finance Insights | Drip Capital',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Expert insights on trade finance, working capital management, and business growth strategies from the Drip Capital team.' },
+        { hid: 'og:title', property: 'og:title', content: 'Blog | Trade Finance Insights | Drip Capital' },
+        { hid: 'og:description', property: 'og:description', content: 'Expert insights on trade finance, working capital management, and business growth strategies from the Drip Capital team.' }
+      ],
+        link: [
+          { rel: 'canonical', href: 'https://www.dripcapital.com/en-us/blog' }
+        ]
+    }
   },
 
   data() {

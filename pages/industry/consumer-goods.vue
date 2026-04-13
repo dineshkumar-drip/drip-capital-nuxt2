@@ -100,7 +100,15 @@
 export default {
   head() {
     return {
-      title: 'Consumer Goods Working Capital | Drip Capital'
+      title: 'Consumer Goods Financing | Drip Capital',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Working capital for US consumer goods companies. Fund inventory purchases, pay vendors, and accelerate growth.' },
+        { hid: 'og:title', property: 'og:title', content: 'Consumer Goods Financing | Drip Capital' },
+        { hid: 'og:description', property: 'og:description', content: 'Working capital for US consumer goods companies. Fund inventory purchases, pay vendors, and accelerate growth.' }
+      ],
+        link: [
+          { rel: 'canonical', href: 'https://www.dripcapital.com/en-us/industry/consumer-goods' }
+        ]
     }
   },
 

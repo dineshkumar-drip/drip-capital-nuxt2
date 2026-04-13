@@ -258,7 +258,10 @@ export default {
         { hid: 'description', name: 'description', content: 'Drip Capital Vendor Financing lets US businesses pay vendors immediately and repay on up to 90-day terms. No collateral, 24-hour approval. Keep cash moving.' },
         { hid: 'og:title', property: 'og:title', content: 'Vendor Financing | Drip Capital' },
         { hid: 'og:description', property: 'og:description', content: 'Pay your vendors now, repay in 90 days. Fast approval, no collateral required.' }
-      ]
+      ],
+        link: [
+          { rel: 'canonical', href: 'https://www.dripcapital.com/en-us/vendor-financing' }
+        ]
     }
   },
 

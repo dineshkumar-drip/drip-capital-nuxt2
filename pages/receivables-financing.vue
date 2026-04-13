@@ -250,7 +250,17 @@
 <script>
 export default {
   head() {
-    return { title: 'Receivables Financing | Drip Capital' }
+    return {
+      title: 'Receivables Financing | Get Paid on Invoices Today | Drip Capital',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Convert outstanding invoices into same-day cash. Drip Capital receivables financing funds invoices in 24-48 hours. No collateral, non-dilutive.' },
+        { hid: 'og:title', property: 'og:title', content: 'Receivables Financing | Get Paid on Invoices Today | Drip Capital' },
+        { hid: 'og:description', property: 'og:description', content: 'Convert outstanding invoices into same-day cash. Funds invoices in 24-48 hours. No collateral, non-dilutive.' }
+      ],
+        link: [
+          { rel: 'canonical', href: 'https://www.dripcapital.com/en-us/receivables-financing' }
+        ]
+    }
   },
 
   data() {

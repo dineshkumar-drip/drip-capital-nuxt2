@@ -51,7 +51,17 @@
 <script>
 export default {
   head() {
-    return { title: 'Careers | Drip Capital' }
+    return {
+      title: 'Careers | Join Drip Capital',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Join the Drip Capital team. Build the future of trade finance. We are hiring engineers, analysts, and operators.' },
+        { hid: 'og:title', property: 'og:title', content: 'Careers | Join Drip Capital' },
+        { hid: 'og:description', property: 'og:description', content: 'Join the Drip Capital team. Build the future of trade finance. We are hiring engineers, analysts, and operators.' }
+      ],
+        link: [
+          { rel: 'canonical', href: 'https://www.dripcapital.com/en-us/careers' }
+        ]
+    }
   }
 }
 </script>

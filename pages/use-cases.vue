@@ -78,7 +78,17 @@
 <script>
 export default {
   head() {
-    return { title: 'Use Cases & Case Studies | Drip Capital' }
+    return {
+      title: 'Case Studies | Drip Capital',
+      meta: [
+        { hid: 'description', name: 'description', content: 'See how businesses across manufacturing, wholesale, seafood, and consumer goods have grown with Drip Capital working capital solutions.' },
+        { hid: 'og:title', property: 'og:title', content: 'Case Studies | Drip Capital' },
+        { hid: 'og:description', property: 'og:description', content: 'See how businesses across manufacturing, wholesale, seafood, and consumer goods have grown with Drip Capital working capital solutions.' }
+      ],
+        link: [
+          { rel: 'canonical', href: 'https://www.dripcapital.com/en-us/use-cases' }
+        ]
+    }
   },
 
   data() {

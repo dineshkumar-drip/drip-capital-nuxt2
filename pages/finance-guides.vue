@@ -70,7 +70,17 @@
 <script>
 export default {
   head() {
-    return { title: 'Finance Guides | Drip Capital' }
+    return {
+      title: 'Finance Guides | Drip Capital',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Free guides on vendor financing, receivables financing, and working capital management for US importers, exporters, and distributors.' },
+        { hid: 'og:title', property: 'og:title', content: 'Finance Guides | Drip Capital' },
+        { hid: 'og:description', property: 'og:description', content: 'Free guides on vendor financing, receivables financing, and working capital management for US importers, exporters, and distributors.' }
+      ],
+        link: [
+          { rel: 'canonical', href: 'https://www.dripcapital.com/en-us/finance-guides' }
+        ]
+    }
   },
 
   data() {

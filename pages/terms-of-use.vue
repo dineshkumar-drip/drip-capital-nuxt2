@@ -22,7 +22,7 @@
           <template v-if="item.hasLink">
             <p v-for="(desc, j) in item.desc" :key="j" class="legal-body">
               {{ desc.line1 }}
-              <NuxtLink to="/privacy-policy">{{ desc.line2 }}</NuxtLink>
+              <NuxtLink to="/en-us/privacy-policy">{{ desc.line2 }}</NuxtLink>
               {{ desc.line3 }}
             </p>
           </template>
@@ -44,7 +44,15 @@
 export default {
   head() {
     return {
-      title: 'Terms of Use | Drip Capital'
+      title: 'Terms of Use | Drip Capital',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Drip Capital terms of use. Read our terms and conditions for using our website and services.' },
+        { hid: 'og:title', property: 'og:title', content: 'Terms of Use | Drip Capital' },
+        { hid: 'og:description', property: 'og:description', content: 'Drip Capital terms of use. Read our terms and conditions for using our website and services.' }
+      ],
+        link: [
+          { rel: 'canonical', href: 'https://www.dripcapital.com/en-us/terms-of-use' }
+        ]
     }
   },
 

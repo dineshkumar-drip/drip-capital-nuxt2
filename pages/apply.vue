@@ -403,9 +403,9 @@
                       </span>
                       <span class="checkbox-text">
                         I agree to Drip Capital's
-                        <NuxtLink to="/en-us/terms" class="form-link">Terms of Service</NuxtLink>
+                        <NuxtLink to="/en-us/terms-of-use" class="form-link">Terms of Service</NuxtLink>
                         and
-                        <NuxtLink to="/en-us/privacy" class="form-link">Privacy Policy</NuxtLink>
+                        <NuxtLink to="/en-us/privacy-policy" class="form-link">Privacy Policy</NuxtLink>
                       </span>
                     </label>
                     <span v-if="errors.termsAgreed" class="field-error" role="alert">{{ errors.termsAgreed }}</span>
@@ -578,7 +578,15 @@
 export default {
   head() {
     return {
-      title: 'Apply for Financing | Drip Capital'
+      title: 'Apply for Working Capital | Drip Capital',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Apply for working capital in minutes. Get a credit decision within 24 hours. No collateral required. Funding from $50K to $3M for US businesses.' },
+        { hid: 'og:title', property: 'og:title', content: 'Apply for Working Capital | Drip Capital' },
+        { hid: 'og:description', property: 'og:description', content: 'Apply for working capital in minutes. Get a credit decision within 24 hours. No collateral required.' }
+      ],
+        link: [
+          { rel: 'canonical', href: 'https://www.dripcapital.com/en-us/apply' }
+        ]
     }
   },
 

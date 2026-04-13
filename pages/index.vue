@@ -12,10 +12,12 @@
               Capital that helps your<br>
               <em>business grow faster.</em>
             </h1>
-            <div class="hero-typewriter-wrap">
-              <span class="hero-tw-prefix">✦</span>
-              <span class="hero-tw-text">{{ typewriterDisplay }}<span class="hero-tw-cursor" :class="{ blink: cursorBlink }">|</span></span>
-            </div>
+            <client-only>
+              <div class="hero-typewriter-wrap">
+                <span class="hero-tw-prefix">✦</span>
+                <span class="hero-tw-text">{{ typewriterDisplay }}<span class="hero-tw-cursor" :class="{ blink: cursorBlink }">|</span></span>
+              </div>
+            </client-only>
             <p class="hero-subtitle">
               No collateral, no delays. Capital that moves as fast as your ambition. Our customers grow 130–190% in annual revenue after funding.
             </p>
@@ -350,7 +352,9 @@
     </section>
 
     <!-- ========== FUNDING CALCULATOR ========== -->
-    <FundingCalculator />
+    <client-only>
+      <FundingCalculator />
+    </client-only>
 
     <!-- ========== TESTIMONIALS (Trustpilot) ========== -->
     <TrustpilotSection />
@@ -416,7 +420,15 @@
 export default {
   head() {
     return {
-      title: 'Drip Capital: Working Capital for Growing Businesses'
+      title: 'Drip Capital: Working Capital for Growing Businesses',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Drip Capital provides fast, flexible working capital for US businesses. Vendor financing, receivables financing, and lines of credit with 24-hour approval.' },
+        { hid: 'og:title', property: 'og:title', content: 'Drip Capital: Working Capital for Growing Businesses' },
+        { hid: 'og:description', property: 'og:description', content: 'Fast, flexible working capital for US businesses. 24-hour approval, no collateral required.' }
+      ],
+        link: [
+          { rel: 'canonical', href: 'https://www.dripcapital.com/en-us/' }
+        ]
     }
   },
 

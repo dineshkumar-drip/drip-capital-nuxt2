@@ -81,7 +81,17 @@
 <script>
 export default {
   head() {
-    return { title: 'Newsroom | Drip Capital' }
+    return {
+      title: 'Newsroom | Drip Capital',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Latest news, press releases, and media coverage about Drip Capital. Stay updated on our latest developments in trade finance.' },
+        { hid: 'og:title', property: 'og:title', content: 'Newsroom | Drip Capital' },
+        { hid: 'og:description', property: 'og:description', content: 'Latest news, press releases, and media coverage about Drip Capital. Stay updated on our latest developments in trade finance.' }
+      ],
+        link: [
+          { rel: 'canonical', href: 'https://www.dripcapital.com/en-us/newsroom' }
+        ]
+    }
   },
 
   data() {

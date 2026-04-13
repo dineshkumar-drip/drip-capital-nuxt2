@@ -116,7 +116,17 @@
 <script>
 export default {
   head() {
-    return { title: 'Investors | Drip Capital' }
+    return {
+      title: 'Our Investors | Drip Capital',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Drip Capital is backed by Barclays, IFC, SMBC, TD Bank, East West Bank, Y Combinator, Accel, and other leading financial institutions.' },
+        { hid: 'og:title', property: 'og:title', content: 'Our Investors | Drip Capital' },
+        { hid: 'og:description', property: 'og:description', content: 'Drip Capital is backed by Barclays, IFC, SMBC, TD Bank, East West Bank, Y Combinator, Accel, and other leading financial institutions.' }
+      ],
+        link: [
+          { rel: 'canonical', href: 'https://www.dripcapital.com/en-us/investors' }
+        ]
+    }
   },
 
   data() {

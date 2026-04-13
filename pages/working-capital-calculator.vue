@@ -280,7 +280,17 @@
 <script>
 export default {
   head() {
-    return { title: 'Working Capital Calculator | Drip Capital | Free Tool' }
+    return {
+      title: 'Working Capital Calculator | Drip Capital',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Calculate your working capital needs and get a funding estimate in seconds. Flexible financing from $50K to $3M for US businesses.' },
+        { hid: 'og:title', property: 'og:title', content: 'Working Capital Calculator | Drip Capital' },
+        { hid: 'og:description', property: 'og:description', content: 'Calculate your working capital needs and get a funding estimate in seconds. Flexible financing from $50K to $3M for US businesses.' }
+      ],
+        link: [
+          { rel: 'canonical', href: 'https://www.dripcapital.com/en-us/working-capital-calculator' }
+        ]
+    }
   },
 
   data() {

@@ -150,7 +150,17 @@
 <script>
 export default {
   head() {
-    return { title: 'Contact Us | Drip Capital' }
+    return {
+      title: 'Contact Drip Capital | Get Working Capital Today',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Get in touch with Drip Capital. Apply for vendor financing, receivables financing, or a line of credit. Call +1 (650) 437-0150 or email hello@dripcapital.com.' },
+        { hid: 'og:title', property: 'og:title', content: 'Contact Drip Capital | Get Working Capital Today' },
+        { hid: 'og:description', property: 'og:description', content: 'Get in touch with Drip Capital. Apply for vendor financing, receivables financing, or a line of credit.' }
+      ],
+        link: [
+          { rel: 'canonical', href: 'https://www.dripcapital.com/en-us/contact' }
+        ]
+    }
   },
 
   data() {

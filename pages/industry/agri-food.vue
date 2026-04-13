@@ -99,7 +99,17 @@
 <script>
 export default {
   head() {
-    return { title: 'Agriculture & Food Working Capital | Drip Capital' }
+    return {
+      title: 'Agri-Food Financing | Drip Capital',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Working capital for agri-food importers and exporters. Finance trade transactions, pay vendors, and manage seasonal cash flow.' },
+        { hid: 'og:title', property: 'og:title', content: 'Agri-Food Financing | Drip Capital' },
+        { hid: 'og:description', property: 'og:description', content: 'Working capital for agri-food importers and exporters. Finance trade transactions, pay vendors, and manage seasonal cash flow.' }
+      ],
+        link: [
+          { rel: 'canonical', href: 'https://www.dripcapital.com/en-us/industry/agri-food' }
+        ]
+    }
   },
 
   data() {

@@ -100,7 +100,15 @@
 export default {
   head() {
     return {
-      title: 'Wholesale Distribution Working Capital | Drip Capital'
+      title: 'Wholesale Financing | Drip Capital',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Working capital for US wholesale distributors. Pay vendors upfront, manage inventory, and grow your distribution business.' },
+        { hid: 'og:title', property: 'og:title', content: 'Wholesale Financing | Drip Capital' },
+        { hid: 'og:description', property: 'og:description', content: 'Working capital for US wholesale distributors. Pay vendors upfront, manage inventory, and grow your distribution business.' }
+      ],
+        link: [
+          { rel: 'canonical', href: 'https://www.dripcapital.com/en-us/industry/wholesale' }
+        ]
     }
   },
 

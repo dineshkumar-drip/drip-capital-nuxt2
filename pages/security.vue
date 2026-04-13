@@ -67,7 +67,17 @@
 <script>
 export default {
   head() {
-    return { title: 'Security | Drip Capital' }
+    return {
+      title: 'Security | Drip Capital',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Drip Capital security practices. SOC 2 certified, 256-bit encryption, and enterprise-grade security for your financial data.' },
+        { hid: 'og:title', property: 'og:title', content: 'Security | Drip Capital' },
+        { hid: 'og:description', property: 'og:description', content: 'Drip Capital security practices. SOC 2 certified, 256-bit encryption, and enterprise-grade security for your financial data.' }
+      ],
+        link: [
+          { rel: 'canonical', href: 'https://www.dripcapital.com/en-us/security' }
+        ]
+    }
   }
 }
 </script>

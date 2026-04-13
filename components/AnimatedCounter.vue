@@ -62,7 +62,9 @@ export default {
   },
   mounted() {
     if (!this.$refs.counterEl || typeof IntersectionObserver === 'undefined') {
-      this.displayValue = this.target
+      this.$nextTick(() => {
+        this.displayValue = this.target
+      })
       return
     }
 

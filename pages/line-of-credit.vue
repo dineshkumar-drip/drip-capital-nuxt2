@@ -250,7 +250,17 @@
 <script>
 export default {
   head() {
-    return { title: 'Line of Credit | Drip Capital' }
+    return {
+      title: 'Business Line of Credit | On-Demand Capital | Drip Capital',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Flexible revolving line of credit for US businesses. Draw what you need, repay, and draw again. 24-hour approval, no bank deposit required.' },
+        { hid: 'og:title', property: 'og:title', content: 'Business Line of Credit | On-Demand Capital | Drip Capital' },
+        { hid: 'og:description', property: 'og:description', content: 'Flexible revolving line of credit for US businesses. Draw what you need, repay, and draw again.' }
+      ],
+        link: [
+          { rel: 'canonical', href: 'https://www.dripcapital.com/en-us/line-of-credit' }
+        ]
+    }
   },
 
   data() {

@@ -100,7 +100,15 @@
 export default {
   head() {
     return {
-      title: 'Seafood Industry Working Capital | Drip Capital'
+      title: 'Seafood Industry Financing | Drip Capital',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Working capital for seafood importers and distributors. Finance vendor payments, manage seasonal demand, and grow your trade volume.' },
+        { hid: 'og:title', property: 'og:title', content: 'Seafood Industry Financing | Drip Capital' },
+        { hid: 'og:description', property: 'og:description', content: 'Working capital for seafood importers and distributors. Finance vendor payments, manage seasonal demand, and grow your trade volume.' }
+      ],
+        link: [
+          { rel: 'canonical', href: 'https://www.dripcapital.com/en-us/industry/seafood' }
+        ]
     }
   },
 

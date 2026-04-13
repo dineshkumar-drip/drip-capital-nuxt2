@@ -1,2 +1,29 @@
-User-Agent: *
-Disallow:
+User-agent: *
+Allow: /
+
+Sitemap: https://www.dripcapital.com/sitemap.xml
+
+Disallow: /health
+Disallow: /en-us/apply-thank-you
+Disallow: /en-us/partners/thank-you
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /

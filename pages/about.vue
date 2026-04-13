@@ -88,7 +88,7 @@
             <div class="team-photo-wrap">
               <img
                 :src="t.photo"
-                :alt="`${t.name} — ${t.role}`"
+                :alt="`${t.name} - ${t.role}`"
                 class="team-photo"
                 loading="lazy"
                 @error="handlePhotoError($event, t)"
@@ -233,7 +233,17 @@
 <script>
 export default {
   head() {
-    return { title: 'About Drip Capital | Working Capital for SMBs' }
+    return {
+      title: 'About Drip Capital | Trade Finance Leader Since 2016',
+      meta: [
+        { hid: 'description', name: 'description', content: 'Drip Capital has financed over $9 billion in trade transactions for 11,000+ businesses worldwide. Learn about our mission, leadership, and commitment to powering global trade.' },
+        { hid: 'og:title', property: 'og:title', content: 'About Drip Capital | Trade Finance Leader Since 2016' },
+        { hid: 'og:description', property: 'og:description', content: 'Drip Capital has financed over $9 billion in trade transactions for 11,000+ businesses worldwide.' }
+      ],
+        link: [
+          { rel: 'canonical', href: 'https://www.dripcapital.com/en-us/about' }
+        ]
+    }
   },
 
   data() {
